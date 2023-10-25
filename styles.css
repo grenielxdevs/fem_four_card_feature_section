@@ -72,6 +72,22 @@ body {
     gap: 2vw;
 }
 
+@media screen and (max-width: 768px) {
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .content .content-columns {
+        margin-top: 12%;
+        flex-direction: column;
+        gap: 6vw;
+    }
+
+    .content .content-columns .column {
+        gap: 6vw;
+    }
+}
+
 /* Card Styles */
 .card {
     max-width: 350px;
@@ -117,6 +133,12 @@ body {
     max-width: 100%;
     width: 20%;
     float: right;
+}
+
+@media screen and (max-width: 768px) { 
+    .card {
+        padding: 30px;
+    }
 }
 
 .attribution { 
